@@ -83,7 +83,7 @@ class PI_Monitor extends IPSModule
             AC_SetLoggingStatus($archiveHandlerID, $this->GetIDForIdent("RAM_percent"), $this->ReadPropertyBoolean("logRAM_percent"));
             IPS_ApplyChanges($archiveHandlerID);
             
-            copy  (IPS_GetKernelDir()."modules/PI_Monitor/Raspi-PGB001.png", IPS_GetKernelDir()."webfront/user/Raspi-PGB001.png");
+            copy  (IPS_GetKernelDir()."modules/IPS_PI_Monitor/PI_Monitor/Raspi-PGB001.png", IPS_GetKernelDir()."webfront/user/Raspi-PGB001.png");
             
 
    	}
